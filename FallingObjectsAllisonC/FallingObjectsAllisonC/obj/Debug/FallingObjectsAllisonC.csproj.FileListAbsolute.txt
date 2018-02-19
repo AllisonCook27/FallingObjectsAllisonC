@@ -1,0 +1,10 @@
+C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\bin\Debug\FallingObjectsAllisonC.exe.config
+C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\bin\Debug\FallingObjectsAllisonC.exe
+C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\bin\Debug\FallingObjectsAllisonC.pdb
+C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.csprojResolveAssemblyReference.cache
+C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.frmFallingObjects.resources
+C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.Properties.Resources.resources
+C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.csproj.GenerateResource.Cache
+C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.csproj.CoreCompileInputs.cache
+C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.exe
+C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.pdb
