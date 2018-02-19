@@ -37,6 +37,8 @@ namespace FallingObjectsAllisonC
             //Taking away unneeded information for question 1
             txtHeight.Visible = false;
             lblEnterHeight.Text = "";
+            lblMeters.Text = "";
+            lblAnswer.Text = "";
         }
 
         private void mniQuestion2_Click(object sender, EventArgs e)
@@ -44,6 +46,8 @@ namespace FallingObjectsAllisonC
             //displaying the additional information for question 2
             txtHeight.Visible = true;
             lblEnterHeight.Text = "Enter the height (in meters) of the cliff:";
+            lblMeters.Text = "";
+            lblAnswer.Text = "";
         }
 
         private void txtHeight_TextChanged(object sender, EventArgs e)
@@ -65,17 +69,20 @@ namespace FallingObjectsAllisonC
                 {
                     MessageBox.Show("Please input a number.");
                 }
+                Time = int.Parse(txtTime.Text);
                 //checking if the number is posistive
                 if (Time > 0)
                 {
                     //using formual to find height
-                    double AnswerT = Convert.ToInt32(100 - 0.5 * 9.81 * Math.Pow(Time, 2));
+                    double Answer = (100 - 0.5 * 9.81 * Math.Pow(Time, 2));
                     //rounding to two decimal places
-                    AnswerT = Math.Round(AnswerT, 2);
-                    if (AnswerT > 0)
+                    Answer = Math.Round(Answer,2);
+                    if (Answer > 0)
                     {
                         // Chaning the text to be the answer
-                        lblAnswer.Text = Convert.ToString(AnswerT);
+                        lblAnswer.Text = Convert.ToString(Answer);
+                        //adding meters to end
+                        lblMeters.Text = "Meters";
                     }
                     else
                     {
@@ -114,6 +121,8 @@ namespace FallingObjectsAllisonC
                 {
                     MessageBox.Show("Please input a number for height.");
                 }
+                Time = int.Parse(txtTime.Text);
+                Height = int.Parse(txtHeight.Text);
 
                 //checking if the number is posistive
                 if (Time > 0)
@@ -121,13 +130,15 @@ namespace FallingObjectsAllisonC
                     if (Height > 0)
                     {
                          //using formual to find height
-                         double AnswerT = Convert.ToInt32(100 - 0.5 * 9.81 * Math.Pow(Time, 2));
-                         //rounding to two decimal places
-                         AnswerT = Math.Round(AnswerT, 2);
-                        if (AnswerT > 0)
+                         double Answer = (Height - 0.5 * 9.81 * Math.Pow(Time, 2));
+                        //rounding to two decimal places
+                        Answer = Math.Round(Answer, 2);
+                        if (Answer > 0)
                         {
                             // Chaning the text to be the answer
-                            lblAnswer.Text = Convert.ToString(AnswerT);
+                            lblAnswer.Text = Convert.ToString(Answer);
+                            //adding meters to end
+                            lblMeters.Text = "Meters";
                         }
                         else
                         {

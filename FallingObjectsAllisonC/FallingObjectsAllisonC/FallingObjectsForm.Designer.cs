@@ -41,6 +41,7 @@
             this.txtTime = new System.Windows.Forms.TextBox();
             this.txtHeight = new System.Windows.Forms.TextBox();
             this.btnCalculate = new System.Windows.Forms.Button();
+            this.lblMeters = new System.Windows.Forms.Label();
             this.mnuMenu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -161,11 +162,21 @@
             this.btnCalculate.UseVisualStyleBackColor = false;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
+            // lblMeters
+            // 
+            this.lblMeters.AutoSize = true;
+            this.lblMeters.Font = new System.Drawing.Font("High Tower Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMeters.Location = new System.Drawing.Point(358, 183);
+            this.lblMeters.Name = "lblMeters";
+            this.lblMeters.Size = new System.Drawing.Size(0, 19);
+            this.lblMeters.TabIndex = 8;
+            // 
             // frmFallingObjects
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(515, 261);
+            this.Controls.Add(this.lblMeters);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.txtHeight);
             this.Controls.Add(this.txtTime);
@@ -199,6 +210,7 @@
         private System.Windows.Forms.TextBox txtTime;
         private System.Windows.Forms.TextBox txtHeight;
         private System.Windows.Forms.Button btnCalculate;
+        private System.Windows.Forms.Label lblMeters;
     }
 }
 
