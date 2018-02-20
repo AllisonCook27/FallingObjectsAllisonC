@@ -46,16 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FallingObjectsForm.cs">
+    <Compile Include="N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison %28s241474%29\Assignments\FallingObjectsAllisonC\FallingObjectsForm.cs">
       <SubType>Form</SubType>
+      <Link>FallingObjectsForm.cs</Link>
     </Compile>
-    <Compile Include="FallingObjectsForm.Designer.cs">
+    <Compile Include="N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison %28s241474%29\Assignments\FallingObjectsAllisonC\FallingObjectsForm.Designer.cs">
       <DependentUpon>FallingObjectsForm.cs</DependentUpon>
+      <Link>FallingObjectsForm.Designer.cs</Link>
     </Compile>
     <Compile Include="FallingObjectsProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FallingObjectsForm.resx">
+    <EmbeddedResource Include="N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison %28s241474%29\Assignments\FallingObjectsAllisonC\FallingObjectsForm.resx">
       <DependentUpon>FallingObjectsForm.cs</DependentUpon>
+      <Link>FallingObjectsForm.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
