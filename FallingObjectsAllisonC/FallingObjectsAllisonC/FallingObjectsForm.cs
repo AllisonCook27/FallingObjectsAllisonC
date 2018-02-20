@@ -21,6 +21,11 @@ namespace FallingObjectsAllisonC
 {
     public partial class frmFallingObjects : Form
     {
+
+        // local variables
+        double time;
+        double height;
+
         public frmFallingObjects()
         {
             InitializeComponent();
@@ -36,18 +41,16 @@ namespace FallingObjectsAllisonC
         {
             //Taking away unneeded information for question 1
             txtHeight.Visible = false;
-            lblEnterHeight.Text = "";
-            lblMeters.Text = "";
-            lblAnswer.Text = "";
+            lblEnterHeight.Hide();
+            lblAnswer.Hide();
         }
 
         private void mniQuestion2_Click(object sender, EventArgs e)
         {
             //displaying the additional information for question 2
             txtHeight.Visible = true;
-            lblEnterHeight.Text = "Enter the height (in meters) of the cliff:";
-            lblMeters.Text = "";
-            lblAnswer.Text = "";
+            lblEnterHeight.Show();
+            lblAnswer.Hide();
         }
 
         private void txtHeight_TextChanged(object sender, EventArgs e)
@@ -57,32 +60,31 @@ namespace FallingObjectsAllisonC
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
+            
+
             //Checking which question it is by what is shown
             if (txtHeight.Visible == false)
-            {
-                int Time;
+            {                
                 try
                 {
-                    Time = int.Parse(txtTime.Text);
+                    time = double.Parse(txtTime.Text);
                 }
                 catch (Exception)
                 {
                     MessageBox.Show("Please input a number.");
                 }
-                Time = int.Parse(txtTime.Text);
                 //checking if the number is posistive
-                if (Time > 0)
+                if (time > 0)
                 {
                     //using formual to find height
-                    double Answer = (100 - 0.5 * 9.81 * Math.Pow(Time, 2));
+                    double Answer = (100 - 0.5 * 9.81 * Math.Pow(time, 2));
                     //rounding to two decimal places
                     Answer = Math.Round(Answer,2);
                     if (Answer > 0)
                     {
                         // Chaning the text to be the answer
-                        lblAnswer.Text = Convert.ToString(Answer);
-                        //adding meters to end
-                        lblMeters.Text = "Meters";
+                        lblAnswer.Text = Convert.ToString(Answer) + "Meters";
+
                     }
                     else
                     {
@@ -103,42 +105,37 @@ namespace FallingObjectsAllisonC
             else
             {
                 //trying it stops from crashing the program
-                int Time;
                 try
                 {
-                    Time = int.Parse(txtTime.Text);
+                    time = double.Parse(txtTime.Text);
                 }
                 catch (Exception)
                 {
                     MessageBox.Show("Please input a number for time.");
                 }
-                int Height;
                 try
                 {
-                    Height = int.Parse(txtHeight.Text);
+                    height = int.Parse(txtHeight.Text);
                 }
                 catch (Exception)
                 {
                     MessageBox.Show("Please input a number for height.");
                 }
-                Time = int.Parse(txtTime.Text);
+                time = int.Parse(txtTime.Text);
                 Height = int.Parse(txtHeight.Text);
-
                 //checking if the number is posistive
-                if (Time > 0)
+                if (time > 0)
                 {
-                    if (Height > 0)
+                    if (height > 0)
                     {
                          //using formual to find height
-                         double Answer = (Height - 0.5 * 9.81 * Math.Pow(Time, 2));
+                         double Answer = (height - 0.5 * 9.81 * Math.Pow(time, 2));
                         //rounding to two decimal places
                         Answer = Math.Round(Answer, 2);
                         if (Answer > 0)
                         {
                             // Chaning the text to be the answer
-                            lblAnswer.Text = Convert.ToString(Answer);
-                            //adding meters to end
-                            lblMeters.Text = "Meters";
+                            lblAnswer.Text = Convert.ToString(Answer) + "Meters";
                         }
                         else
                         {

@@ -41,45 +41,45 @@
             this.txtTime = new System.Windows.Forms.TextBox();
             this.txtHeight = new System.Windows.Forms.TextBox();
             this.btnCalculate = new System.Windows.Forms.Button();
-            this.lblMeters = new System.Windows.Forms.Label();
             this.mnuMenu.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblEnterTime
             // 
             this.lblEnterTime.AutoSize = true;
-            this.lblEnterTime.Font = new System.Drawing.Font("High Tower Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEnterTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEnterTime.Location = new System.Drawing.Point(12, 32);
             this.lblEnterTime.Name = "lblEnterTime";
-            this.lblEnterTime.Size = new System.Drawing.Size(381, 19);
+            this.lblEnterTime.Size = new System.Drawing.Size(416, 20);
             this.lblEnterTime.TabIndex = 0;
             this.lblEnterTime.Text = "Enter the time (in seconds)  since you released the object:";
             // 
             // lblAnswer
             // 
             this.lblAnswer.AutoSize = true;
-            this.lblAnswer.Font = new System.Drawing.Font("High Tower Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAnswer.Location = new System.Drawing.Point(291, 183);
             this.lblAnswer.Name = "lblAnswer";
-            this.lblAnswer.Size = new System.Drawing.Size(0, 19);
+            this.lblAnswer.Size = new System.Drawing.Size(0, 20);
             this.lblAnswer.TabIndex = 1;
             // 
             // lblEnterHeight
             // 
             this.lblEnterHeight.AutoSize = true;
-            this.lblEnterHeight.Font = new System.Drawing.Font("High Tower Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEnterHeight.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEnterHeight.Location = new System.Drawing.Point(13, 65);
             this.lblEnterHeight.Name = "lblEnterHeight";
-            this.lblEnterHeight.Size = new System.Drawing.Size(0, 19);
+            this.lblEnterHeight.Size = new System.Drawing.Size(279, 20);
             this.lblEnterHeight.TabIndex = 2;
+            this.lblEnterHeight.Text = "Enter the height (in meters) of the cliff:";
             // 
             // lblAnswerText
             // 
             this.lblAnswerText.AutoSize = true;
-            this.lblAnswerText.Font = new System.Drawing.Font("High Tower Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAnswerText.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAnswerText.Location = new System.Drawing.Point(13, 183);
             this.lblAnswerText.Name = "lblAnswerText";
-            this.lblAnswerText.Size = new System.Drawing.Size(216, 19);
+            this.lblAnswerText.Size = new System.Drawing.Size(231, 20);
             this.lblAnswerText.TabIndex = 3;
             this.lblAnswerText.Text = "The height above the ground is:";
             // 
@@ -90,7 +90,7 @@
             this.mniQuestion});
             this.mnuMenu.Location = new System.Drawing.Point(0, 0);
             this.mnuMenu.Name = "mnuMenu";
-            this.mnuMenu.Size = new System.Drawing.Size(515, 24);
+            this.mnuMenu.Size = new System.Drawing.Size(587, 24);
             this.mnuMenu.TabIndex = 4;
             this.mnuMenu.Text = "menuStrip1";
             // 
@@ -134,7 +134,7 @@
             // 
             // txtTime
             // 
-            this.txtTime.Location = new System.Drawing.Point(399, 32);
+            this.txtTime.Location = new System.Drawing.Point(434, 34);
             this.txtTime.Name = "txtTime";
             this.txtTime.Size = new System.Drawing.Size(100, 20);
             this.txtTime.TabIndex = 5;
@@ -142,7 +142,7 @@
             // 
             // txtHeight
             // 
-            this.txtHeight.Location = new System.Drawing.Point(399, 66);
+            this.txtHeight.Location = new System.Drawing.Point(434, 65);
             this.txtHeight.Name = "txtHeight";
             this.txtHeight.Size = new System.Drawing.Size(100, 20);
             this.txtHeight.TabIndex = 6;
@@ -153,30 +153,21 @@
             // btnCalculate
             // 
             this.btnCalculate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnCalculate.Font = new System.Drawing.Font("High Tower Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalculate.Location = new System.Drawing.Point(210, 138);
+            this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalculate.Location = new System.Drawing.Point(242, 148);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(81, 32);
+            this.btnCalculate.Size = new System.Drawing.Size(89, 32);
             this.btnCalculate.TabIndex = 7;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = false;
             this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
             // 
-            // lblMeters
-            // 
-            this.lblMeters.AutoSize = true;
-            this.lblMeters.Font = new System.Drawing.Font("High Tower Text", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMeters.Location = new System.Drawing.Point(358, 183);
-            this.lblMeters.Name = "lblMeters";
-            this.lblMeters.Size = new System.Drawing.Size(0, 19);
-            this.lblMeters.TabIndex = 8;
-            // 
             // frmFallingObjects
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(515, 261);
-            this.Controls.Add(this.lblMeters);
+            this.BackColor = System.Drawing.Color.MediumPurple;
+            this.ClientSize = new System.Drawing.Size(587, 261);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.txtHeight);
             this.Controls.Add(this.txtTime);
@@ -210,7 +201,6 @@
         private System.Windows.Forms.TextBox txtTime;
         private System.Windows.Forms.TextBox txtHeight;
         private System.Windows.Forms.Button btnCalculate;
-        private System.Windows.Forms.Label lblMeters;
     }
 }
 

@@ -8,3 +8,9 @@ C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjects
 C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.csproj.CoreCompileInputs.cache
 C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.exe
 C:\Users\Dave\Desktop\Allison's programing\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.pdb
+C:\Users\s241474\Desktop\Allison Grade 11 Programing\FallingObjectsAllisonC\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.csprojResolveAssemblyReference.cache
+C:\Users\s241474\Desktop\Allison Grade 11 Programing\FallingObjectsAllisonC\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.frmFallingObjects.resources
+C:\Users\s241474\Desktop\Allison Grade 11 Programing\FallingObjectsAllisonC\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.Properties.Resources.resources
+C:\Users\s241474\Desktop\Allison Grade 11 Programing\FallingObjectsAllisonC\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.csproj.GenerateResource.Cache
+C:\Users\s241474\Desktop\Allison Grade 11 Programing\FallingObjectsAllisonC\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.exe
+C:\Users\s241474\Desktop\Allison Grade 11 Programing\FallingObjectsAllisonC\FallingObjectsAllisonC\FallingObjectsAllisonC\obj\Debug\FallingObjectsAllisonC.pdb
